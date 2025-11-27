@@ -1,8 +1,6 @@
-codigo onda triangular
-'''
 from machine import Pin, PWM
 import utime
-# Configurar PWM en GPIO15
+#Configurar PWM en GPIO15
 pwm = PWM(Pin(15))
 pwm.freq(1000) #Frecuencia fija
 
@@ -35,4 +33,3 @@ def triangular_wave():
             
 #Ejecutar
 triangular_wave()
-'''
