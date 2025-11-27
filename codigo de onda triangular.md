@@ -1,4 +1,4 @@
-codigo de onda triangular
+codigo onda triangular
 '''
 from machine import Pin, PWM
 import utime
